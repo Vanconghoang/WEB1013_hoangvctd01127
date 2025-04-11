@@ -1,0 +1,115 @@
+/* === CSS Trang Giới Thiệu FPT PolySchool === */
+
+/* Reset & font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(to right, #ff6600, #ff9900);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  header img {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 5px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  /* Main */
+  main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #ff6600;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p,
+  .vision p,
+  .mission p {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .core-values ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .core-values li {
+    padding: 10px 15px;
+    margin: 8px 0;
+    background-color: #fff;
+    border-left: 5px solid #ff6600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    font-weight: 500;
+  }
+  
+  /* Video */
+  .video-section iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #eee;
+    padding: 25px 10px;
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 50px;
+  }
+  

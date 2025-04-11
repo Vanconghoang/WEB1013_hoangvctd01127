@@ -1,0 +1,73 @@
+/* content-styles.css */
+.content-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content-box {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 102, 0, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-box h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FF6600;
+}
+
+.content-box p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Responsive video container (YouTube) */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Google Map */
+.content-box iframe {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Facebook plugins spacing */
+.fb-like, .fb-comments {
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .content-box {
+        padding: 15px;
+    }
+
+    .content-box h2 {
+        font-size: 20px;
+    }
+}
